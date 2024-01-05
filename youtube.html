@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- practicing html and css from yt channel supersimple dev -->
+    <title>Practice_from_supersimpledev</title>
+    <link rel="stylesheet" href="./styles/video.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/general.css" />
+    <link rel="stylesheet" href="./styles/sidebar.css" />
+    <!-- here now the html begins and the there are divs and classes made to target the selected html with the help of css to make it better looking -->
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img
+          class="hamburger-menu"
+          src="./icons/hamburger-menu.svg"
+          alt="menu"
+        />
+        <img
+          class="youtube-logo"
+          src="./icons/youtube-logo.svg"
+          alt="youtube logo"
+        />
+      </div>
+      <div class="middle-section">
+        <!-- for searchbox -->
+        <input type="text" placeholder="Search" class="search_bar" />
+        <button class="search-button">
+          <img class="search-icon" src="./icons/search.svg" alt="search" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voicesearch-button">
+          <img
+            class="voicesearch-icon"
+            src="./icons/voice-search-icon.svg"
+            alt=""
+          />
+          <div class="tooltip">Voice Search</div>
+        </button>
+      </div>
+      <!-- right-section -->
+      <div class="right-section">
+        <div class="upload-icon-cointainer">
+          <img class="upload-icon" src="./icons/upload.svg" alt="upload" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="app-icon-cointainer">
+          <img class="app-icon" src="./icons/youtube-apps.svg" alt="app" />
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        <div class="notification-cointainer">
+          <img
+            class="notification-icon"
+            src="./icons/notifications.svg"
+            alt="notification"
+          />
+          <div class="notification-count">9+</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <div class="yt-profile-img-cointainer">
+          <img
+            class="ytprofile-img"
+            src="./img/secondsmall.jpeg"
+            alt="channel"
+          />
+          <div class="tooltip">Profile</div>
+        </div>
+      </div>
+    </header>
+    <!-- sidebar -->
+    <nav class="sidebar">
+      <div class="sidebar_link">
+        <img src="./icons/sidebar/home.svg" alt="home" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar_link">
+        <img src="./icons/sidebar/explore.svg" alt="explorea" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar_link">
+        <img src="./icons/sidebar/subscriptions.svg" alt="subscription" />
+        <div>Subscription</div>
+      </div>
+      <div class="sidebar_link">
+        <img src="./icons/sidebar/originals.svg" alt="originals" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar_link">
+        <img src="./icons/sidebar/youtube-music.svg" alt="music" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar_link">
+        <img src="./icons/sidebar/library.svg" alt="library" />
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <!-- the div is created for all elements to allign them in a grid -->
+    <main>
+      <section class="video-grid">
+        <!-- the given number represents the each block of element of the created grid -->
+        <!-- 1 -->
+        <div class="video_preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./img/sundar pic.webp" alt="img" />
+            <div class="video-time">14:20</div>
+          </div>
+          <div>
+            <div class="video-info-grid">
+              <div class="channel_pic">
+                <img
+                  class="profile_pic"
+                  src="./img/firstsmall.jpeg"
+                  alt="channel"
+                />
+              </div>
+              <div class="video_info">
+                <p class="video_title">
+                  Talking Tech and AI with Google CEO Sundar Pichai!
+                </p>
+
+                <p class="channel_name">Marques Brownlee</p>
+                <p class="channel_stats">3.4M views &#183; 6 months ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="video_preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./img/second image.webp" alt="img" />
+          </div>
+          <div class="video-info-grid">
+            <div class="channel_pic">
+              <img class="profile_pic" src="./img/secondsmall.jpeg" alt="#" />
+            </div>
+            <div class="video_info">
+              <p class="video_title">Try Not To Laugh Challenge #9</p>
+              <p class="channel_name">Markiplier</p>
+              <p class="channel_stats">19M views &#183; 4 years ago</p>
+            </div>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="video_preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./img/sundar pic.webp" alt="img" />
+          </div>
+          <div>
+            <div class="video-info-grid">
+              <div class="channel_pic">
+                <img
+                  class="profile_pic"
+                  src="./img/firstsmall.jpeg"
+                  alt="channel"
+                />
+              </div>
+              <div class="video_info">
+                <p class="video_title">
+                  Talking Tech and AI with Google CEO Sundar Pichai!
+                </p>
+
+                <p class="channel_name">Marques Brownlee</p>
+                <p class="channel_stats">3.4M views &#183; 6 months ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="video_preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./img/second image.webp" alt="img" />
+          </div>
+          <div class="video-info-grid">
+            <div class="channel_pic">
+              <img class="profile_pic" src="./img/secondsmall.jpeg" alt="#" />
+            </div>
+            <div class="video_info">
+              <p class="video_title">Try Not To Laugh Challenge #9</p>
+              <p class="channel_name">Markiplier</p>
+              <p class="channel_stats">19M views &#183; 4 years ago</p>
+            </div>
+          </div>
+        </div>
+        <!-- 5 -->
+        <div class="video_preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./img/sundar pic.webp" alt="img" />
+          </div>
+          <div>
+            <div class="video-info-grid">
+              <div class="channel_pic">
+                <img
+                  class="profile_pic"
+                  src="./img/firstsmall.jpeg"
+                  alt="channel"
+                />
+              </div>
+              <div class="video_info">
+                <p class="video_title">
+                  Talking Tech and AI with Google CEO Sundar Pichai!
+                </p>
+
+                <p class="channel_name">Marques Brownlee</p>
+                <p class="channel_stats">3.4M views &#183; 6 months ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 6 -->
+        <div class="video_preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./img/sundar pic.webp" alt="img" />
+          </div>
+          <div>
+            <div class="video-info-grid">
+              <div class="channel_pic">
+                <img
+                  class="profile_pic"
+                  src="./img/firstsmall.jpeg"
+                  alt="channel"
+                />
+              </div>
+              <div class="video_info">
+                <p class="video_title">
+                  Talking Tech and AI with Google CEO Sundar Pichai!
+                </p>
+
+                <p class="channel_name">Marques Brownlee</p>
+                <p class="channel_stats">3.4M views &#183; 6 months ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 7 -->
+        <div class="video_preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./img/second image.webp" alt="img" />
+          </div>
+          <div class="video-info-grid">
+            <div class="channel_pic">
+              <img class="profile_pic" src="./img/secondsmall.jpeg" alt="#" />
+            </div>
+            <div class="video_info">
+              <p class="video_title">Try Not To Laugh Challenge #9</p>
+              <p class="channel_name">Markiplier</p>
+              <p class="channel_stats">19M views &#183; 4 years ago</p>
+            </div>
+          </div>
+        </div>
+        <!--8  -->
+        <div class="video_preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./img/sundar pic.webp" alt="img" />
+          </div>
+          <div>
+            <div class="video-info-grid">
+              <div class="channel_pic">
+                <img
+                  class="profile_pic"
+                  src="./img/firstsmall.jpeg"
+                  alt="channel"
+                />
+              </div>
+              <div class="video_info">
+                <p class="video_title">
+                  Talking Tech and AI with Google CEO Sundar Pichai!
+                </p>
+
+                <p class="channel_name">Marques Brownlee</p>
+                <p class="channel_stats">3.4M views &#183; 6 months ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 9 -->
+        <div class="video_preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./img/second image.webp" alt="img" />
+          </div>
+          <div class="video-info-grid">
+            <div class="channel_pic">
+              <img class="profile_pic" src="./img/secondsmall.jpeg" alt="#" />
+            </div>
+            <div class="video_info">
+              <p class="video_title">Try Not To Laugh Challenge #9</p>
+              <p class="channel_name">Markiplier</p>
+              <p class="channel_stats">19M views &#183; 4 years ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
